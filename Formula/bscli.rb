@@ -1,26 +1,26 @@
 class Bscli < Formula
   desc "CLI for the Bugslayer debug deck for the Crazyflie"
   homepage "https://github.com/evoggy/bugslayer-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.1/bscli-aarch64-apple-darwin.tar.gz"
-      sha256 "0129ce2e12ce27a03dab2bc181b55045267c8d9eec139b9cb9957cd421fc802a"
+      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.2/bscli-aarch64-apple-darwin.tar.gz"
+      sha256 "6b543af81439e216e25e8b427cf6fea62e9773bbd440a018e865fe73dcc31d22"
     else
-      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.1/bscli-x86_64-apple-darwin.tar.gz"
-      sha256 "c9233339081bf914cb58cd6b87d55ebab5129a20449c928b67ed0327ff60941f"
+      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.2/bscli-x86_64-apple-darwin.tar.gz"
+      sha256 "98ed107d4ba750ca1fd6758811efb709dbbf520e0e8e348f1cd4389340c8381e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.1/bscli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "26b101d06ad1a3449923a459874cc91fe9e5e5dc1d2b0ce3731adf7e977c1dfa"
+      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.2/bscli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a0d89737f229df76077a7606a2896d5012a207f3d0e86b97baf93c0bae829173"
     else
-      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.1/bscli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "09a10df3753efe8fb39696542ec0a84e4466573bdb585411545fd48ecd309f9e"
+      url "https://github.com/evoggy/bugslayer-cli/releases/download/0.1.2/bscli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f4ac7d65775ac430a0c334df3bae0dc9014a97e38ce67f007fc2fd46c40ef043"
     end
   end
 
